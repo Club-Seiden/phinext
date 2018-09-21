@@ -1,0 +1,25 @@
+{
+    "name": "club-seiden/phinext",
+    "description": "XMLSERVICE PHP Client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chuk Shirley",
+            "email": "chukShirley@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "squizlabs/php_codesniffer": "^2.5",
+        "phpmd/phpmd" : "@stable",
+        "zendframework/zend-developer-tools": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhiNext\\": "src"
+        }
+    }
+}
